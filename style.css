@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+}
+.one{
+    margin-left: 15%;
+    margin-right: 15%;
+
+    /* display: inline-block; */
+    text-align: center;
+    
+}
+
+img{
+    width: 300px;
+    height: 800px;
+    margin-left: 210%;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: brown;
+   text-shadow: 5px 3px 4px grey;
+}
+h1:hover{
+    text-decoration: 5px underline rgb(243, 239, 239);
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    color: rgb(158, 101, 31);
+}
+abbr{
+    text-decoration: none;
+    cursor: grab;
+}
+h2{
+    margin-top: 50px;
+    text-align: left;
+    font-size: 30px;
+    text-shadow: 5px 3px 4px grey;
+    color: palevioletred;
+}
+h2:hover{
+    color: darkgoldenrod;
+}
+a{
+    text-decoration: none;
+    color:orangered ;
+  font-size: 25px;  
+  text-shadow: none
+}
+a:hover{
+    color: rgb(112, 21, 40);
+}
+#one{
+    /* font-size: 100px; */
+    margin-top: 50px;
+    text-align: center;
+    text-shadow: 5px 3px 4px rgb(78, 9, 9);
+    color: palevioletred;
+}
+#one:hover{
+    color: darksalmon;
+}
+.bg{
+    display: inline-block;
+    box-shadow: 5px 5px rgba(197, 169, 159,0.4);
+    width: 280px;
+    height: 240px; 
+    margin: 0px 0px 10px 10px;
+    border-radius: 10px;
+    background-color: rgb(100, 29, 29);
+}
+.bg:hover{
+    background-color: rgb(2, 47, 61);
+    box-shadow: 5px 5px rgb(161, 161, 235);
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+div>h2{
+    text-align: center;
+}
